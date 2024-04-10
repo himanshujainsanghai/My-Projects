@@ -1,0 +1,27 @@
+.appContainer{
+  display: flex;
+  flex-direction: row;
+  overflow-y: hidden;
+}
+.mainSidebar{
+  height: 100vh;
+}
+.contentClass{
+  width: 100%;
+}
+.card{
+  margin: 10px 5px;
+  width: 95%;
+  scroll-behavior: smooth;
+  overflow: hidden;
+}
+.hashtag{
+  margin: 0px 3px;
+}
+.welcomeMessage{
+  margin: 50px 0;
+}
+
+.spinner{
+  margin: 20% 0;
+}

@@ -1,0 +1,6 @@
+.ContainerFull{
+  border: 2px solid black;
+  border-radius:5px ;
+  margin: 15px;
+  width: 50%;
+}
