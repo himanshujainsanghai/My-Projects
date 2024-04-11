@@ -44,7 +44,7 @@ const CreatePost = () => {
   };
 
   return (
-    <form onSubmit={handleSubmit}>
+    <form>
       <div className="mb-3">
         <label htmlFor="userId" className="form-label">
           Enter your User Id Here
@@ -106,7 +106,7 @@ const CreatePost = () => {
           placeholder="Please Enter your tags using space..."
         />
       </div>
-      <button type="submit" className="btn btn-primary">
+      <button type="submit" onClick={handleSubmit} className="btn btn-primary">
         Post
       </button>
     </form>
