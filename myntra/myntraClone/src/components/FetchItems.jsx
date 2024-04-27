@@ -13,7 +13,7 @@ const FetchItems = () => {
     const controller = new AbortController();
     const signal = controller.signal;
     dispatch(fetchStatusActions.markFetchingStarted());
-    fetch("http://localhost:8080/items", { signal })
+    fetch("http://localhost:3050/items", { signal })
       .then((res) => res.json())
       .then(({ items }) => {
         dispatch(fetchStatusActions.markFetchDone());
